@@ -25,6 +25,7 @@ import android.util.Log;
 
 import org.lineageos.settings.doze.DozeUtils;
 import org.lineageos.settings.thermal.ThermalUtils;
+import org.lineageos.settings.haptic.HapticUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
     private static final boolean DEBUG = false;
@@ -40,5 +41,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         Log.i(TAG, "Boot completed, starting services");
 	DozeUtils.onBootCompleted(context);
         ThermalUtils.startService(context);
+	HapticUtils.restoreLevel(context);
     }
 }
