@@ -1,3 +1,6 @@
+# App
+ro.launcher.blur.appLaunch=0
+
 # Bluetooth
 persist.bluetooth.a2dp_aac.vbr_supported=true
 persist.vendor.bt.a2dp.mac_whitelist=false
