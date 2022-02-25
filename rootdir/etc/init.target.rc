@@ -134,9 +134,7 @@ on property:sys.boot_completed=1
 
     # Runtime fs tuning
     write /sys/block/sda/queue/nr_requests 128
-    write /sys/block/sda/queue/iostats 1
     write /sys/block/sde/queue/nr_requests 128
-    write /sys/block/sde/queue/iostats 1
 
     # Setup cpu.shares to throttle background groups (bg ~ 5% sysbg ~ 10%)
     write /dev/cpuctl/background/cpu.shares 1024
