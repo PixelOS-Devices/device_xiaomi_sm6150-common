@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2021 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Ambient settings -->
+    <string name="ambient_enable">Folosește afișaj ambiental</string>
+    <string name="doze_brightness_title">Luminozitate afișaj activ permanent</string>
+    <string name="doze_brightness_summary">Modul %s este activat</string>
+    <!-- Dirac settings -->
+    <string name="dirac_enable">Utilizați amplificatorul Mi Sound</string>
+    <string name="dirac_title">Amplificatorul de sunet Mi</string>
+    <string name="dirac_summary">Optimizează calitatea sunetului cu Dirac, Hi-Fi</string>
+    <string name="dirac_headset_title">Tip cască</string>
+    <string name="dirac_hifi_enable_title">Activați Hi-Fi</string>
+    <string name="dirac_preset_title">Presetare sunet</string>
+    <string name="dirac_hifi_title">Hi-Fi</string>
+    <string name="dirac_hifi_summary">Reducere zgomotul și distorsiunile și crește calitatea sunetului</string>
+    <string name="dirac_headset_earbuds">Căști în ureche Mi</string>
+    <string name="dirac_headset_in_ear_2013">Mi In-Ear (2013)</string>
+    <string name="dirac_headset_piston_1">Mi Piston-1</string>
+    <string name="dirac_headset_general_inear">General In-Ear</string>
+    <string name="dirac_headset_piston_basic">Ediție de bază</string>
+    <string name="dirac_headset_piston_2">Mi Piston-2</string>
+    <string name="dirac_headset_piston_standard">Ediție Standard</string>
+    <string name="dirac_headset_piston_youth">Ediție Youth</string>
+    <string name="dirac_headset_piston_color">Ediție Color</string>
+    <string name="dirac_headset_in_ear">Mi In-Ear</string>
+    <string name="dirac_headset_capsule">Mi Capsule</string>
+    <string name="dirac_headset_in_ear_pro">Mi In-Ear Pro</string>
+    <string name="dirac_headset_comfort">Mi Comfort</string>
+    <string name="dirac_headset_reduction_noise">Mi Noise Cancelling Type-C</string>
+    <string name="dirac_headset_cancelling">Mi Noise Cancelling 3.5mm</string>
+    <string name="dirac_headset_half_in_ear">Mi Half In-Ear</string>
+    <string name="dirac_headset_in_ear2">Mi In-Ear 2</string>
+    <string name="dirac_headset_earphone_basic">Căști Mi Basic</string>
+    <string name="dirac_headset_earphone">Căști Mi</string>
+    <string name="dirac_headset_ear_four">Mi Quadruple Driver Earphones</string>
+    <string name="dirac_headset_piston_typec">Căști Mi In-Ear (Type-C)</string>
+    <string name="dirac_headset_bluetooth_collar">Mi Bluetooth Neckband</string>
+    <string name="dirac_headset_bluetooth_linefree">Căști Bluetooth Mi</string>
+    <string name="dirac_headset_redmi_earphones">Căști Redmi</string>
+    <string name="dirac_preset_default">Implicit</string>
+    <string name="dirac_preset_rock">Rock</string>
+    <string name="dirac_preset_jazz">Jazz</string>
+    <string name="dirac_preset_pop">Pop</string>
+    <string name="dirac_preset_classical">Clasic</string>
+    <string name="dirac_preset_hiphop">Hiphop</string>
+    <string name="dirac_preset_blues">Blues</string>
+    <string name="dirac_preset_electronic">Electronic</string>
+    <string name="dirac_preset_country">Country</string>
+    <string name="dirac_preset_dance">Dans</string>
+    <string name="dirac_preset_metal">Metal</string>
+    <string name="dirac_preset_bass_booster">Amplificare Bas</string>
+    <string name="dirac_preset_live">În direct</string>
+    <string name="dirac_preset_balanced">Echilibrat</string>
+    <string name="dirac_preset_bass_reduction">Reducere Bass</string>
+    <string name="dirac_preset_treble_reduction">Reducere Frecvențe Înalte</string>
+    <string name="dirac_preset_soft_bass">Bass ușor</string>
+    <string name="dirac_preset_soft_treble">Frecvențe Înalte ușoare</string>
+    <string name="music_headset_scenario_intelligent">Inteligent</string>
+    <string name="music_headset_scenario_music">Muzică</string>
+    <string name="music_headset_scenario_select">Selectare scenă</string>
+    <string name="music_headset_scenario_video">Video</string>
+    <string name="music_headset_scenario_vocal">Voce</string>
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Curățare difuzor</string>
+    <string name="clear_speaker_summary">Redă un sunet de 30 de secunde pentru a curăța difuzorul</string>
+    <string name="clear_speaker_description">Rulați această funcție o dată sau de două ori dacă descoperiți că difuzorul este ușor blocat de praf. Setați volumul media la maxim.\n\nDacă difuzorul este blocat puternic, rulați această funcție de 2-5 ori în timp ce scuturați dispozitivul cu difuzorul îndreptat în jos.\n\nAVERTISMENT: asigurați-vă că toate căștile sunt deconectate.</string>
+    <!-- Haptic Level Settings -->
+    <string name="haptic_title">Vibrații la atingere</string>
+    <string name="haptic_warning">Configurarea unui nivel de vibrare prea ridicat poate provoca daune hardware permanente, utilizați pe propriul risc</string>
+    <string name="haptic_summary">Personalizați intensitatea vibrațiilor</string>
+    <string name="haptic_level_title">Nivel</string>
+    <string name="haptic_level_summary">Nivelul intensității vibrației</string>
+    <string name="haptic_level_summary_incompatible">Caracteristică neacceptată</string>
+</resources>
