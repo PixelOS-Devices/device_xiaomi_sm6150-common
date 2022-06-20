@@ -556,6 +556,26 @@ vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/10_version_update_ecc_table.sql
 
+# Snapdragon Computer Vision Engine
+-vendor/lib/libfastcvdsp_stub.so
+-vendor/lib/libfastcvopt.so
+-vendor/lib/libscveCommon.so
+-vendor/lib/libscveCommon_stub.so
+-vendor/lib/libscveObjectSegmentation.so
+-vendor/lib/libscveObjectSegmentation_stub.so
+-vendor/lib/libscveObjectTracker.so
+-vendor/lib/libscveObjectTracker_stub.so
+-vendor/lib64/libfastcvdsp_stub.so
+-vendor/lib64/libfastcvopt.so
+-vendor/lib64/libscveCommon.so
+-vendor/lib64/libscveCommon_stub.so
+-vendor/lib64/libscveObjectSegmentation.so
+-vendor/lib64/libscveObjectSegmentation_stub.so
+-vendor/lib64/libscveObjectTracker.so
+-vendor/lib64/libscveObjectTracker_stub.so
+-vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
+-vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
+
 # Soter
 -vendor/app/SoterService/SoterService.apk
 -vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
