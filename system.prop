@@ -1,7 +1,5 @@
 # Bluetooth
-ro.bluetooth.library_name=libbluetooth_qti.so
-persist.vendor.btstack.aac_frm_ctl.enabled=true
-persist.vendor.bt.a2dp.aac_whitelist=false
+vendor.bluetooth.soc=cherokee
 
 # Camera
 vendor.camera.aux.packagelist=com.android.camera
