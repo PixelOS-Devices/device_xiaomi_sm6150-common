@@ -200,6 +200,11 @@
          provisioning, availability etc -->
     <bool name="config_carrier_wfc_ims_available">true</bool>
 
+    <!-- When true, indicates that the vendor's IMS implementation requires a workaround when
+     sending a request to enable or disable the camera while the video session is also
+     paused. -->
+    <bool name="config_useVideoPauseWorkaround">true</bool>
+
     <!-- IWLAN data service package name to bind to by default. If none is specified in an overlay, an
          empty string is passed in -->
     <string name="config_wlan_data_service_package">vendor.qti.iwlan</string>
