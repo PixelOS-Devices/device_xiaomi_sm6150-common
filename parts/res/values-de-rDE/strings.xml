@@ -25,18 +25,18 @@
     <string name="dirac_enable">Nutze die Mi Klangverbesserung</string>
     <string name="dirac_summary">Audioqualität optimieren</string>
     <string name="dirac_headset_title">Kopfhörertyp auswählen</string>
-    <string name="dirac_preset_title">Vorgabe auswählen</string>
+    <string name="dirac_preset_title">Voreinstellung auswählen</string>
 
     <!-- Dirac settings: Headset types -->
-    <string name="dirac_headset_earbuds">Mi true wireless Kopfhörer</string>
+    <string name="dirac_headset_earbuds">Mi Earbuds</string>
     <string name="dirac_headset_in_ear_2013">Mi In-Ear (2013)</string>
     <string name="dirac_headset_piston_1">Mi Piston-1</string>
-    <string name="dirac_headset_general_inear">Allgemeine In Ear Kopfhörer</string>
-    <string name="dirac_headset_piston_basic">Basis Edition</string>
+    <string name="dirac_headset_general_inear">Mi Headphones</string>
+    <string name="dirac_headset_piston_basic">Basic Edition</string>
     <string name="dirac_headset_piston_2">Mi Piston-2</string>
     <string name="dirac_headset_piston_standard">Standard Edition</string>
-    <string name="dirac_headset_piston_youth">Jugend Edition</string>
-    <string name="dirac_headset_piston_color">Farbige Edition</string>
+    <string name="dirac_headset_piston_youth">Youth Edition</string>
+    <string name="dirac_headset_piston_color">Color Edition</string>
     <string name="dirac_headset_in_ear">Mi In-Ear</string>
     <string name="dirac_headset_capsule">Mi Capsule</string>
     <string name="dirac_headset_in_ear_pro">Mi In-Ear Pro</string>
@@ -47,11 +47,11 @@
     <string name="dirac_headset_in_ear2">Mi In-Ear 2</string>
     <string name="dirac_headset_earphone_basic">Mi Earphones Basic</string>
     <string name="dirac_headset_earphone">Mi Earphones</string>
-    <string name="dirac_headset_ear_four">Mi-Ohrhörer mit vier Treibern</string>
+    <string name="dirac_headset_ear_four">Mi Quadruple Driver Earphones</string>
     <string name="dirac_headset_piston_typec">Mi In-Ear-Ohrhörer (Type-C)</string>
-    <string name="dirac_headset_bluetooth_collar">Mi Bluetooth Nackenbüge</string>
-    <string name="dirac_headset_bluetooth_linefree">Mi Bluetooth-Kopfhörer</string>
-    <string name="dirac_headset_redmi_earphones">Redmi-Kopfhörer</string>
+    <string name="dirac_headset_bluetooth_collar">Mi Bluetooth Neckband</string>
+    <string name="dirac_headset_bluetooth_linefree">Mi Bluetooth Earphones</string>
+    <string name="dirac_headset_redmi_earphones">Redmi Earphones</string>
     <string name="dirac_headset_dual_driver_in_ear">Mi Dual Driver In-ear Earphones</string>
 
     <!-- Dirac settings: Equalizer presets -->
@@ -62,7 +62,7 @@
     <string name="dirac_preset_classical">Klassik</string>
     <string name="dirac_preset_hiphop">Hip-Hop</string>
     <string name="dirac_preset_blues">Blues</string>
-    <string name="dirac_preset_electronic">Elektronisch</string>
+    <string name="dirac_preset_electronic">Electronic</string>
     <string name="dirac_preset_country">Country</string>
     <string name="dirac_preset_dance">Dance</string>
     <string name="dirac_preset_metal">Metal</string>
@@ -89,7 +89,7 @@
     <string name="thermal_streaming">Streaming Programme</string>
 
     <!-- Clear Speaker -->
-    <string name="clear_speaker_title">Klarer Lautsprecher</string>
+    <string name="clear_speaker_title">Lautsprecher reinigen</string>
     <string name="clear_speaker_summary">Spielen Sie einen 30-sekündigen Ton ab, um den Lautsprecher zu entlasten</string>
     <string name="clear_speaker_description">Führen Sie diese Funktion ein- oder zweimal aus, wenn Sie feststellen, dass Ihr Lautsprecher leicht durch Staub blockiert ist. Stellen Sie die Medienlautstärke auf Maximum ein.\n\nWenn der Lautsprecher stark blockiert ist, führen Sie diese Funktion 2-5 Mal aus, während Sie Ihr Gerät mit dem Lautsprecher nach unten schütteln.\n\nACHTUNG: Stellen Sie sicher, dass kein Kopfhörer eingesteckt ist.</string>
 

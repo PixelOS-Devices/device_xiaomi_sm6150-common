@@ -13,7 +13,7 @@
 -->
 <resources>
     <!-- Ambient settings -->
-    <string name="ambient_enable">使用微光螢幕</string>
+    <string name="ambient_enable">使用環境顯示</string>
     <string name="doze_brightness_title">一律顯示的亮度</string>
     <string name="doze_brightness_summary">已啟用 %s 模式</string>
     <!-- Dirac settings -->
@@ -56,37 +56,37 @@
     <string name="dirac_preset_classical">古典</string>
     <string name="dirac_preset_hiphop">嘻哈</string>
     <string name="dirac_preset_blues">藍調</string>
-    <string name="dirac_preset_electronic">Electronic</string>
-    <string name="dirac_preset_country">Country</string>
-    <string name="dirac_preset_dance">Dance</string>
-    <string name="dirac_preset_metal">Metal</string>
+    <string name="dirac_preset_electronic">電音</string>
+    <string name="dirac_preset_country">鄉村</string>
+    <string name="dirac_preset_dance">舞曲</string>
+    <string name="dirac_preset_metal">重金屬</string>
     <!-- Dirac settings: Sound Scenes -->
-    <string name="music_headset_scenario_select">Choose scene</string>
-    <string name="music_headset_scenario_intelligent">Smart</string>
-    <string name="music_headset_scenario_music">Music</string>
-    <string name="music_headset_scenario_video">Video</string>
-    <string name="music_headset_scenario_vocal">Voice</string>
+    <string name="music_headset_scenario_select">選擇場景</string>
+    <string name="music_headset_scenario_intelligent">動態</string>
+    <string name="music_headset_scenario_music">音樂</string>
+    <string name="music_headset_scenario_video">影片</string>
+    <string name="music_headset_scenario_vocal">語音</string>
     <!-- QS tile title -->
-    <string name="dirac_qs_tile_title">Mi Sound Enhancer</string>
+    <string name="dirac_qs_tile_title">米音音效增強</string>
     <!-- Thermal Profiles -->
-    <string name="thermal_title">Thermal profiles</string>
+    <string name="thermal_title">溫度設定檔</string>
     <string name="thermal_summary">Per-app thermal profile configuration</string>
-    <string name="thermal_default">Default</string>
-    <string name="thermal_benchmark">Benchmark</string>
-    <string name="thermal_browser">Browser</string>
-    <string name="thermal_camera">Camera</string>
-    <string name="thermal_dialer">Dialer</string>
-    <string name="thermal_gaming">Gaming</string>
-    <string name="thermal_streaming">Streaming</string>
+    <string name="thermal_default">預設</string>
+    <string name="thermal_benchmark">效能測試</string>
+    <string name="thermal_browser">瀏覽器</string>
+    <string name="thermal_camera">相機</string>
+    <string name="thermal_dialer">撥號器</string>
+    <string name="thermal_gaming">遊戲</string>
+    <string name="thermal_streaming">串流</string>
     <!-- Clear Speaker -->
-    <string name="clear_speaker_title">Clear speaker</string>
-    <string name="clear_speaker_summary">Play a 30-second audio to clear the speaker</string>
-    <string name="clear_speaker_description">Run this feature once or twice if you find that your speaker is lightly blocked by dust. Set media volume to maximum.\n\nIf the speaker is blocked heavily, run this feature 2-5 times while shaking your device with the speaker facing downwards.\n\nWARNING: Ensure that any headphones are unplugged.</string>
+    <string name="clear_speaker_title">清理揚聲器</string>
+    <string name="clear_speaker_summary">播放 30 秒的音效來清理揚聲器</string>
+    <string name="clear_speaker_description">當發現有灰塵覆蓋住揚聲器時，可以使用這個功能一二次。使用時需要將音量調到最大。\n\n堵塞的情況較嚴重時，可以在使用這個功能的同時將揚聲器朝下，並且搖晃手機。\n\n警告：請確保在使用這個功能之前已經拔除耳機。</string>
     <!-- Haptic Level Settings -->
-    <string name="haptic_title">Haptic feedback</string>
-    <string name="haptic_warning">Setting-up haptic level too high may cause permanent hardware damage, use at your own risk</string>
-    <string name="haptic_summary">Customize vibration intensity</string>
-    <string name="haptic_level_title">Level</string>
-    <string name="haptic_level_summary">Amount of vibration intensity</string>
-    <string name="haptic_level_summary_incompatible">Feature not supported</string>
+    <string name="haptic_title">震動回饋</string>
+    <string name="haptic_warning">設定震動回饋的強度過高可能會導致永久性的硬件損壞，請自行承擔風險。</string>
+    <string name="haptic_summary">自定振動強度</string>
+    <string name="haptic_level_title">等級</string>
+    <string name="haptic_level_summary">震動的強度</string>
+    <string name="haptic_level_summary_incompatible">不支持的功能</string>
 </resources>

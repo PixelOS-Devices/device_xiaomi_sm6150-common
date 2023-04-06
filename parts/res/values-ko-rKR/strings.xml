@@ -13,15 +13,15 @@
 -->
 <resources>
     <!-- Ambient settings -->
-    <string name="ambient_enable">Use ambient display</string>
+    <string name="ambient_enable">절전 모드 자동 해제 사용</string>
     <string name="doze_brightness_title">Always on brightness</string>
     <string name="doze_brightness_summary">%s mode is enabled</string>
     <!-- Dirac settings -->
-    <string name="dirac_title">Mi Sound Enhancer</string>
-    <string name="dirac_enable">Enable</string>
-    <string name="dirac_summary">Optimize audio quality</string>
-    <string name="dirac_headset_title">Choose headphones type</string>
-    <string name="dirac_preset_title">Choose a preset</string>
+    <string name="dirac_title">Mi 사운드 강화</string>
+    <string name="dirac_enable">사용</string>
+    <string name="dirac_summary">오디오 품질 최적화</string>
+    <string name="dirac_headset_title">헤드폰 유형 선택</string>
+    <string name="dirac_preset_title">프리셋 선택</string>
     <!-- Dirac settings: Headset types -->
     <string name="dirac_headset_earbuds">Mi Earbuds</string>
     <string name="dirac_headset_in_ear_2013">Mi In-Ear (2013)</string>
@@ -49,17 +49,17 @@
     <string name="dirac_headset_redmi_earphones">Redmi Earphones</string>
     <string name="dirac_headset_dual_driver_in_ear">Mi Dual Driver In-ear Earphones</string>
     <!-- Dirac settings: Equalizer presets -->
-    <string name="dirac_preset_default">Default</string>
-    <string name="dirac_preset_rock">Rock</string>
-    <string name="dirac_preset_jazz">Jazz</string>
-    <string name="dirac_preset_pop">Pop</string>
-    <string name="dirac_preset_classical">Classical</string>
-    <string name="dirac_preset_hiphop">Hip Hop</string>
-    <string name="dirac_preset_blues">Blues</string>
-    <string name="dirac_preset_electronic">Electronic</string>
-    <string name="dirac_preset_country">Country</string>
-    <string name="dirac_preset_dance">Dance</string>
-    <string name="dirac_preset_metal">Metal</string>
+    <string name="dirac_preset_default">기본값</string>
+    <string name="dirac_preset_rock">락</string>
+    <string name="dirac_preset_jazz">재즈</string>
+    <string name="dirac_preset_pop">팝</string>
+    <string name="dirac_preset_classical">클래식</string>
+    <string name="dirac_preset_hiphop">힙합</string>
+    <string name="dirac_preset_blues">블루스</string>
+    <string name="dirac_preset_electronic">일렉트로닉</string>
+    <string name="dirac_preset_country">컨트리</string>
+    <string name="dirac_preset_dance">댄스</string>
+    <string name="dirac_preset_metal">메탈</string>
     <!-- Dirac settings: Sound Scenes -->
     <string name="music_headset_scenario_select">Choose scene</string>
     <string name="music_headset_scenario_intelligent">Smart</string>
