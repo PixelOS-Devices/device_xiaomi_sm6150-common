@@ -42,6 +42,7 @@
         </receiver>
 
         <service android:name=".doze.DozeService"
+                 android:exported="true"
                  android:permission="XiaomiDozeService">
         </service>
 
@@ -130,6 +131,7 @@
 
         <service
             android:name=".thermal.ThermalService"
+            android:exported="true"
             android:permission="ThermalService">
         </service>
 
@@ -146,6 +148,7 @@
 
         <service
             android:name=".dolby.DolbyTileService"
+            android:exported="true"
             android:icon="@drawable/ic_dolby_qs"
             android:label="@string/dolby_title"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
