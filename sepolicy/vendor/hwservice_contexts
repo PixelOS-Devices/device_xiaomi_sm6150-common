@@ -9,6 +9,3 @@ vendor.xiaomi.hardware.fingerprintextension::IXiaomiFingerprint                 
 
 # Motor
 vendor.xiaomi.hardware.motor::IMotor                                                                u:object_r:hal_motor_hwservice_xiaomi:s0
-
-# Radio
-vendor.qti.hardware.radio.qcriNvOpt::IqcriNvOpt                                                     u:object_r:hal_rilnv_hwservice:s0
