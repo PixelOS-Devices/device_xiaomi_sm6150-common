@@ -1,5 +1,5 @@
 # These proprietary files are extracted from Redmi Note 12 Pro 4G (codenamed `sweet_k6a`) OS1.0.15.0.THGMIXM, unless pinned
-# mojito: Redmi/mojito/mojito:12/RKQ1.210614.002/V14.0.8.0.SKGMIXM:user/release-keys
+# NX627J: qssi_NX627J-user-11-RKQ1.200826.002-nubia.20220224.154721-release-keys
 
 # ADSP
 vendor/bin/adsprpcd
@@ -136,7 +136,7 @@ vendor/lib64/libsdm-disp-vndapis.so
 vendor/lib64/libsdmextension.so
 vendor/lib64/libtinyxml2_1.so
 
-# Display - from NX627J 20201029.204053
+# Display - from NX627J
 vendor/lib64/libsdedrm.so|582910d21139781ad9e414c35207584f51e035e2
 
 # DPM
@@ -409,102 +409,76 @@ vendor/lib64/libqmiservices.so
 vendor/lib64/libqrtr.so
 vendor/lib64/libqsocket.so
 
-# RIL - from mojito
-system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|2c7dbd434839791e7b9bddf9d1c19c8a0939180f
+# RIL - from NX627J
+system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|826dcd6030c9c7dfa969510ccaffc7e2e7e29aaa
 system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
-system_ext/framework/qcrilhook.jar|f251fd8cf621c66a970597954c257d69b6136eda
-system_ext/framework/qti-telephony-common.jar|0ec7f3f9c70a126388595b969c086c0081bacba4
-system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|3d8fe8b564f844a2d721f018a3a0e64ebc3c7488
-vendor/bin/adpl|e267176086e515486a992c98f2bc540da6e8c555
-vendor/bin/hw/qcrild|77d0168fbad7db01eec8abd9df25f19c05411eb4
-vendor/bin/netmgrd|b8df33d93b08d4c57f718457e9f2f71066e8227d
-vendor/bin/qti|dfee6189c14989429bb3320066fdc4b9edbca2d7
-vendor/bin/rmt_storage|626b20ddd58a5b70905a593b4eaa46d4dc6c1b2a
-vendor/bin/tftp_server|d3c9f04e306222a13d51dc3ee089688cc6a3c929
-vendor/etc/data/dsi_config.xml|27a9616809d2e2355640d5e7cdb7268eba9f6a0d
-vendor/etc/data/netmgr_config.xml|b87b057d87139c7ac866dc5f75c498de1e8ab361
+system_ext/etc/permissions/telephonyservice.xml|b7831598d3c19c6ce4ef431d1cc44d94c3c35a8d
+system_ext/framework/qcrilhook.jar|99e9f28fe21fd03f1e913706baf6bcc2302fce3f
+system_ext/framework/qti-telephony-common.jar|1c85524fa91e1e470d30890457616d6e0154fe77
+system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|9b3641c3403ea1113f2d578a86b83defdb3419d1
+vendor/bin/adpl|744171f3fb3b0bf59618e40f4a4209dc19ff3b2d
+vendor/bin/hw/qcrild|5e39ba4874188ccdbf5fc1b421d28398e845cdb1
+vendor/bin/netmgrd|c728df2b9ef80a18dacd6df1fb3194920f474c73
+vendor/bin/qti|2b66b8db52bdf8473543ac6c6f467a6c432414b8
+vendor/bin/rmt_storage|f242bb35f2073f975f17c8f477ad1a7fa9720aa0
+vendor/bin/tftp_server|89c2464f7ef0973c3d2388abe0438798a2effe3a
+vendor/etc/data/dsi_config.xml;FIX_XML|ea5263b57f8e7daf54ccbd54665a20362c6f95ea|af970c55a0e16a1bb2c98df47ffc358ed774b240
+vendor/etc/data/netmgr_config.xml;FIX_XML|cc780730f939411b463d2c9cb660e46385e65e8b|be6da9590212c09e71ae7cb912746d5e56efe09e
 vendor/etc/init/dataadpl.rc|cd4907d9bfd438fe5f5c86f5d6cec590ac0bac2a
 vendor/etc/init/dataqti.rc|6abfd1a850d782adbbb6f42c9d8ca870036b2ad1
-vendor/etc/init/netmgrd.rc|5c592bd2cf775462e147d3def97e99abbac4631e
+vendor/etc/init/netmgrd.rc|ff425b7abb4e77c8d1648c0a5c02b3ba6070305b
 vendor/etc/init/qcrild.rc|17cf4934bf443cf6469d8b3ff622eeb0e4a0aac6
 vendor/etc/init/vendor.qti.rmt_storage.rc|bc212c6353c2ded44ae4d759605fbbe55aa4fa3f
 vendor/etc/init/vendor.qti.tftp.rc|b27f188cbffba470a4510d50e46ff7c8446c22cb
-vendor/lib64/deviceInfoServiceModule.so|d9c829e17f043facc78d142c20a644a37261f777
-vendor/lib64/libconfigdb.so|ffb489e5d0f09b0d704bb52c8570c88280d7f136
-vendor/lib64/libdsi_netctrl.so|40c4c305475d26750812cd70724fecf43d074459
-vendor/lib64/liblqe.so|458b28630770bf626956b1e6fcb380eb4f1726e4
-vendor/lib64/libnetmgr.so|c292fcb4ffa0910953f98176563ea586d4cb990a
-vendor/lib64/libnetmgr_common.so|4a358e54c4ccab5d838e8654788a275be7694a40
-vendor/lib64/libnetmgr_nr_fusion.so|bbe6fd1560d4da257d6f00f2769dc85892cb2517
-vendor/lib64/libnetmgr_rmnet_ext.so|a3ec030ddb6b8447a86480560a966d2a820e8766
-vendor/lib64/libnlnetmgr.so|b5c3f90290b7dad0e323e81be4769a9a7bf869ce
-vendor/lib64/libpdnotifier.so|34319e5c0ab6f79b8a52ba86461c670f1f5eaecb
-vendor/lib64/libqcmaputils.so|3f1c6fe433d0787fc727e12329420c814019bb7d
-vendor/lib64/libqcrilFramework.so|dc62bd4f3685c420d43f4f5f4141d5908212df86
-vendor/lib64/libqcrildatactl.so|6b8f581a702bf25799232c3a5def95c5b6d6e8fd
-vendor/lib64/libqdi.so|15bb67c9abc7ccf94f80108b82a516ade65e2134
-vendor/lib64/libqdp.so|f83bbbdb764699613c3a829f94f74b335e87de8d
-vendor/lib64/libril-qc-hal-qmi.so|31380a6e821c840a385be40b6029f290030b2c13
-vendor/lib64/libril-qc-logger.so|f0cbc6461297b325f46b27d0f6aae623b6c7abdd
-vendor/lib64/librilqmiservices.so|945155a051f36f1859f9fded95548e9205057713
-vendor/lib64/libsystem_health_mon.so|2cc55d78ea00b9fe8af9cd88fd8ef8c31ee5f494
-vendor/lib64/qcrild_librilutils.so|f12ebc05420621d930ffe7f4b4859117e3c9fc35
-vendor/lib64/qtibus.so|cef56e2d40f69b6b6c60b93edb612744395f7359
-vendor/lib64/qtimutex.so|026d9acf29b23ab0419abfe3066bd4c9f13bf7ae
-vendor/lib64/vendor.qti.hardware.data.connection@1.0.so|39bf1d748c3bb90d38be5d031dcd0024b1f2bb2f
-vendor/lib64/vendor.qti.hardware.data.connection@1.1.so|702dd62c50c91446de473f32e31da3a85ba0aea9
-vendor/lib64/vendor.qti.hardware.radio.am@1.0.so|3d84dfd841e6bc918b8e92f3e8f4e45d2051708b
-vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so|ed5b893fc89f0f754bc0377ee8c02bd0b88157d7
-vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so|fc4ababd2cc8ff9f1f253194a5998a0596cf83aa
-vendor/lib64/vendor.qti.hardware.radio.lpa@1.0.so|cff3174157c2a536e1d4b69b2cd43e4c2c873f5d
-vendor/lib64/vendor.qti.hardware.radio.lpa@1.1.so|9164fa7d396bb8acb6abd5c703e4a840149b3812
-vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so|f293c5742455dd7873138472f0ab3c0ba2affd8b
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so|5112fa42a11ee4ab128f8c78e8c807712c9866a1
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so|36bfbb8f0d97269ee53f554ad9287f648879545a
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so|e2bd17fefec0df2e55c188c6842268eda8a2edae
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.2.so|c9f2b8047fae40f4d72f11160c6ac0963ce58630
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.3.so|8d8ca1344b1116273e40d98c251cad36e95ca7a5
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so|afc8812c3eee1fce085bf224a22166654b75c1be
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.5.so|37645f528cd92a2ea487a6ba925b667c4c29eb0a
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.6.so|e8115942c8e041f2f594018d8a2a018103a5fcb5
-vendor/lib64/vendor.qti.hardware.radio.uim@1.0.so|5bfd666e62aed31a272ea2f7cd6e699778aeec92
-vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so|74cd56e716d8401e87a9f0914f4840539bdc30d4
-vendor/lib64/vendor.qti.hardware.radio.uim@1.2.so|cfdfdd616ff0704809f2ec37b1c9e94b8ffb77a1
-vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so|5ec80005a20a2ef66bae99801f2ba060c7e204bb
-vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so|663b65448ec8f5972337e1bbdc08ef5d4b08e8fa
-vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so|3ffb7301b6c185b114157c5423de604e5ba93ade
-vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so|75a58827c0b4e06e2ca8163b6a904dab2af3be6a
-vendor/radio/qcril_database/qcril.db|f5d830834cbca2dc5cb90d003e0b395e385483cb
-vendor/radio/qcril_database/upgrade/0_initial.sql|e2dfb672711e09330accb3563634f34f907d31ba
-vendor/radio/qcril_database/upgrade/10_version_update_ecc_table.sql|47dc91c45a59a1d5138b4945b2a49f47161baa16
-vendor/radio/qcril_database/upgrade/11_version_update_ecc_table.sql|b0351c39bb0ab6a328ff4f639343f42817bd4161
-vendor/radio/qcril_database/upgrade/12_version_update_ecc_table.sql|2fe98a8b9f356be1acb44e9a6f43081517d4bfec
-vendor/radio/qcril_database/upgrade/13_version_update_ecc_table.sql|4309ddd44977879aea107c7750331e19a6eec51f
-vendor/radio/qcril_database/upgrade/14_version_update_ecc_table.sql|01b6942edfecb68d09ed4a282de643068aaf4af5
-vendor/radio/qcril_database/upgrade/15_version_update_ecc_table.sql|287d5adf2a268e0e1cd4b02276079c37dd649a3a
-vendor/radio/qcril_database/upgrade/16_version_update_ecc_table.sql|78e1b286b893b3f885f33a8f14e1b805b6a04328
-vendor/radio/qcril_database/upgrade/17_version_update_ecc_table.sql|5a02fbb150b4422e7ae8d90f0fa80fc113602f05
-vendor/radio/qcril_database/upgrade/18_version_update_ecc_table.sql|8bddc4ee88608a2c52902b6dbc7bfca564e34adf
-vendor/radio/qcril_database/upgrade/19_version_update_ecc_table.sql|e05fa0d3b8bdd5651bcc395d6645255ccb239b12
+vendor/lib64/libconfigdb.so|99aac007edf63718a632d3e342b623c6b48006e6
+vendor/lib64/libdsi_netctrl.so|964b48d3f74ef2b03ae1088ae5caaf8d2e034a06
+vendor/lib64/liblqe.so|64bd091965764253d49bc93f5be14945ffed8499
+vendor/lib64/libnetmgr.so|69411f767635907177ad56af52bcefa1757cbd94
+vendor/lib64/libnetmgr_common.so|632dcc80228294bbc5855ff4867a078c2409bfdc
+vendor/lib64/libnetmgr_nr_fusion.so|811a91bae78be8c51bba94c08d2f85d0bac0855b
+vendor/lib64/libnetmgr_rmnet_ext.so|61d9578ab8270ce27779526eef2d84ea93ca554d
+vendor/lib64/libnlnetmgr.so|d3788af84df50fb4ea06996dca4aae4e54bf868e
+vendor/lib64/libpdnotifier.so|e0bb56a36cef8cef706dc79db63d43fd2e8548a6
+vendor/lib64/libqcmaputils.so|6b404fb74f8c371f025992c8be9c0b93fada93f8
+vendor/lib64/libqcrilFramework.so|4a4a3177ca2cb9747b64c2ca88d60defeb85d058
+vendor/lib64/libqcrildatactl.so|743cbda7802b1734e96de6ded45b9a71a8013913
+vendor/lib64/libqdi.so|827fce8bef8089ed373ad9a4c2a22ad43c980def
+vendor/lib64/libqdp.so|3c8d5fc3a48fcb06a428f6c2e1e2632de6942820
+vendor/lib64/libril-qc-hal-qmi.so|8ededf744420a34975bc64b3c6cf46acc3fb207d
+vendor/lib64/libril-qc-logger.so|a5bb185a7d614d9270b09c118512d781c7ffb061
+vendor/lib64/librilqmiservices.so|a21ba95958a0d8b26b0c2960411ac15491643892
+vendor/lib64/libsystem_health_mon.so|1afcf26183ddd860f0ce40ceceb7b1578ea36b91
+vendor/lib64/qcrild_librilutils.so|ec5255ecafc58f238bc2065e2f602d1421483d49
+vendor/lib64/qtibus.so|13708eec6f21754920a4936d62065331a2f24f27
+vendor/lib64/qtimutex.so|4495a10851d9bb99f29c05479755620281f4b3b8
+vendor/lib64/vendor.qti.hardware.data.connection@1.0.so|544151f48eae291dfdca63ea8849f9ed559ed8db
+vendor/lib64/vendor.qti.hardware.data.connection@1.1.so|9549ba6ea6dbb3e230af375813587c3ed266c5dd
+vendor/lib64/vendor.qti.hardware.radio.am@1.0.so|1ca78c3e6dfcc6e6b42fcc74620200f70a2c4393
+vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so|87bd950dcac15f4fa853f33576a5952704755e77
+vendor/lib64/vendor.qti.hardware.radio.lpa@1.0.so|ac2d520a79bfd591e6cf57c61734f15a1bac009a
+vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so|f9505f87b7e736fd06d4f6f82031484bf26c7ee0
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so|2fe2f2cc8b95803793fbbb478fc26b4e769edeb9
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so|aab6020e1dc20965b2d974075dc01408d66026f3
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so|34a4a4e8cc180895364c0c7ec353ca541068f39c
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.2.so|2707f364a64ec36d2f837cd2d798a6235fad9632
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.3.so|e210ffe00ff65f4f5b82198e18571a47b0e66d2b
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so|aeb08fb3b02357ef278198693c09c239bb9bb050
+vendor/lib64/vendor.qti.hardware.radio.uim@1.0.so|d3df8284177636411fac2d389a3b77665b7452da
+vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so|3abbb96c227e09909dbfda17a645d89be448fd7c
+vendor/lib64/vendor.qti.hardware.radio.uim@1.2.so|5400ce026dc296a61209db2c6ac4475e727fba00
+vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so|6e937cb0212e5ce28226cc1c4d729b773e0d8486
+vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so|1298a911908e8fd3143c663312a963bc1499a80a
+vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so|c9ed9a2f52d3d6411ebbb1060acf0650c14a8bec
+vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so|3e98229c42b6c5e14b6432c8334ec7b1c799fc03
+vendor/radio/qcril_database/qcril.db|6f6449bde3f6fb6b5ed6b4892272db31ea1261f9
+vendor/radio/qcril_database/upgrade/0_initial.sql|e00b243261d8941802bdea9d4e659dc5e927c216
 vendor/radio/qcril_database/upgrade/1_version_intro.sql|67b96cb3e94737bfe271b2519b9eb5fae17373a2
 vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql|b4a825ba20fea3e2f20c7f02c8bd64596c24a75e
-vendor/radio/qcril_database/upgrade/31_version_update_ecc_table.sql|f71b63b73487da49357da5b97a6448d1dd91ea79
-vendor/radio/qcril_database/upgrade/32_version_update_ecc_table.sql|04e52d9be745662d03ab9cb5d06d7b8459042172
-vendor/radio/qcril_database/upgrade/33_version_update_ecc_table.sql|fdac4173e1211e14e26836fbb361100b08d18a48
-vendor/radio/qcril_database/upgrade/34_version_update_ecc_table.sql|bfc42904211517ffb07f7a68c7a3e42be4409752
-vendor/radio/qcril_database/upgrade/35_version_update_ecc_table.sql|cfa662ec604ac790996420ef4c0771d465893415
-vendor/radio/qcril_database/upgrade/36_version_update_ecc_table.sql|83238cb5401a4324b691bef483c6c83629b88b59
-vendor/radio/qcril_database/upgrade/37_version_update_ecc_table.sql|48a00c798866a8aac68361631335b55e77eb7eed
-vendor/radio/qcril_database/upgrade/38_version_update_ecc_table.sql|15c616829c9bc27e8d9c99c3005497cef8eb52af
-vendor/radio/qcril_database/upgrade/39_version_update_ecc_table.sql|643cb33da70892d75d8f28f52ad403648a8a4fd9
 vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql|0571aacaf9fc0868c48bba2f7542f5b4e68c9022
-vendor/radio/qcril_database/upgrade/40_version_update_ecc_table.sql|3f17b56a3f0c25a43ed2d9a7430fcae794fc51e8
 vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql|0734c6a2863edadc7a8422b8310d267c594d11a0
-vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql|1ed6872929020333b3102e65d18fd82c5c308544
-vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql|93340d59f05cdcb580d934fb5c8a36e2b87f17a3
+vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql|fcb2cba3bfd718ecdc8d3cfac3a0b2b2c7e8c506
+vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql|0fdf4b6ccb48906b37885e060429f79c9fd6bdbf
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql|9a76d5747da2876b87b214579c9d74ae92d218d7
-vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql|f6c7e947859f56312e687cba70082ce143821351
-vendor/radio/qcril_database/upgrade/9_version_update_ecc_table_127531.sql|3629f96ea40e6c4051da9387d62129c057e5c94b
 
 # Soter
 vendor/app/SoterService/SoterService.apk
